@@ -4,14 +4,14 @@ API that accepts a file (possibly very large file) and responds with a list of S
 It is implemented with Scala and Akka Http/Streams.
 
 
-##Building
+## Building
 
 One can build a docker image with the command
 
     sbt docker:publishLocal
 
 
-##Running
+## Running
 An existing image resides at https://hub.docker.com/repository/docker/dimaopen/file-chunks.
 
 To get and run it use the following commands
